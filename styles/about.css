@@ -1,6 +1,7 @@
 .about {
     background-color: var(--bg-second);
     padding: 55px 0 100px;
+    color: var(--font-main-black);
 }
 
 .about-title {
