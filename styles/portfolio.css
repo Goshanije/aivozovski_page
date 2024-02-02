@@ -1,0 +1,37 @@
+.portfolio {
+    padding: 80px 0 100px;
+    color: var(--font-main-black);
+    background-color: var(--bg-second);
+}
+
+.portfolio-title {
+    margin: 0 0 75px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.first-img,
+.second-img, 
+.treeth-img {
+  max-width: min(100%, 950px); 
+  min-height: min(100%, 630px);
+  object-fit: contain;
+}
+
+.description-first,
+.description-second,
+.description-treeth {
+    margin: 39px 0 95px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .description-first,
+    .description-second,
+    .description-treeth {
+        font-size: 14px;
+    }
+}
