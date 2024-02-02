@@ -1,0 +1,48 @@
+.about {
+    background-color: var(--bg-second);
+    padding: 55px 0 100px;
+}
+
+.about-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 auto 42px;
+    text-align: center;
+}
+
+.subtitle-ru,
+.subtitle-en {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 780px;
+    text-align: center;
+}
+
+.discription-ru,
+.discription-en {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 780px;
+}
+
+
+.discription-ru {
+    margin: 11px auto 15px;
+}  
+
+.subtitle-en {
+    margin: 17px auto 11px;
+}
+
+.discription-en, .subtitle-ru {
+    margin: 0 auto 0;
+}
+
+@media (max-width: 480px) {
+    .discription-ru,
+    .discription-en,
+    .subtitle-ru,
+    .subtitle-en {
+        font-size: 14px;
+    }
+}
