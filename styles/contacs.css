@@ -1,0 +1,65 @@
+.contacs {
+    padding: 55px 0 63px;
+    text-align: center;
+}
+
+.contacs-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--font-main-black);
+    text-align: center;
+}
+
+.contacs-button {
+    height: 42px;
+    width: 210px;
+    border: none;
+    background-color: var(--font-main-black);
+    color: var(--bg-main);
+    border-radius: 21px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 75px 0 38px;
+}
+
+.contacs-button:hover {
+    opacity: 0.8;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.social-icon {
+    width: 65px;
+    height: 65px;
+    fill: var(--font-main-black);
+}
+
+.social-icon:hover {
+    fill: rgb(100, 100, 100);
+}
+
+.description {
+    font-size: 16px;
+    color: var(--font-grey);
+    font-weight: 500;
+    margin: 34px auto 0;
+    width: 261px;    
+}
+
+@media (max-width: 480px) {
+    .description {
+        font-size: 14px;    
+    }
+    .social-icon {
+        width: 55px;
+        height: 55px;
+    }
+    .social {
+        gap: 25px;
+    }
+}
